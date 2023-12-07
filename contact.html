@@ -1,0 +1,84 @@
+<!doctype html5>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anne's Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <label class="logo"></label>
+        <ul>
+         <li>
+             <a href="personal_portfolio.html">Home</a>
+            </li>
+         <li>
+          <a href="about.html">About</a>
+         </li>
+         <li>
+          <a href="works.html">Works</a>
+         </li>
+         <li>
+             <a href="contact.html">Contact</a>
+         </li>
+        </ul>
+    </nav>
+
+    <div class="contact">
+        <h2>Contact Information</h2>
+        <div class="contact-buttons">
+        <ul id="info">
+            <li id="email-button">
+                <img src="https://i.pinimg.com/originals/c0/6f/d7/c06fd798a6cf7f0fba74dcb2b8b819b4.jpg" alt="email icon" class="icon"/>
+                <button class="caption">
+                    <br><a href = "mailto: annemy002@gmail.com">Email Me</a>
+                </button>
+            </li>
+            <li id="linkedin-button">
+                <img src="https://i.pinimg.com/736x/ce/b4/ac/ceb4ace7353288e47e36b840c79cc48e.jpg" alt="
+                linkedin icon" class="icon"/>
+                <button class="caption">
+                    <br><a href = "linkedin.com/anne-morita">LinkedIn</a>
+                </button>
+            </li>
+            <li id="twitter-information">
+                <img src="https://i.pinimg.com/originals/1c/ad/19/1cad1953a250b11b825c8794dbc3d9a0.jpg" alt="
+                twitter icon" class="icon"/>
+                <button class="caption">
+                    <br><a href = "twitter.com/me0wari">Twitter</a>
+                </button>
+            </li>
+        </ul>
+        </div>
+    </div>
+
+     <!--form -->
+     <div id="contact-form"> 
+        <form method="POST" action="contactus.php" ></form>
+        <p class="message">Let's stay in touch!</p>
+        <p id="form-direction">Please feel free to fill out the following: </p>
+        <div class="form-element">
+            <label for="first-name">First Name: <input type="text" id="first-name" name="first-name" required></label>
+            <label for="last-name">Last Name: <input type="text" id="last-name" name="last-name" required></label>
+        </div>
+        <div class="form-element">
+            <label for="email">Email Address:<input type="email" id="email" name="email" required></label>
+        </div>
+        <div class="form-element">
+            <label for="Message">Enter Your Message:
+        <textarea id="textarea" input="text" name="Message" rows="7" cols="35" placeholder="Leave a message"></textarea></label>
+        </div>
+        <div class="form-element">
+            <input id="send-button" type="submit" value="Submit">
+        </div>
+        </form>
+    </div> 
+
+
+    <footer class="footer">
+        <span>2023 Anne</span>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,234 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCesfxgHPLc8eJrcEjsnAiXkPbJB_PYJGhMBDjxNyX1yCoqN8KiMGEQRyM4K9PY1lUwI&usqp=CAU");
+    background-repeat:none;
+    background-size:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*nav*/
+
+#navbar{
+    background-color:#4f4f4f;
+    position: sticky; 
+    top: 0;
+    left:0;
+    border-bottom: 4px solid #fdb347;
+}
+
+nav ul{
+    margin:0px;
+    padding:30px 60px;
+    display: flex;
+    align-items:center; 
+    justify-content:space-between;
+    list-style-type: none;
+}
+
+li a{
+    color: #8785A2;
+    font-weight: bolder;
+}
+
+li a:hover{
+    color: #fdb347;
+}
+
+#work{
+    font-size: 20px;
+    margin: 20px 35px;
+}
+
+h2{
+    text-align:center;
+    color:#da73b6;
+    font-size:30px;
+    border:dotted;
+    padding:10px;
+    border-radius: 40px;
+}
+
+/*home*/
+h1{
+    text-align:center;
+    font-size:80px;
+    margin:10px;
+    color: #b19cd9;
+}
+
+.selfie{
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+}
+
+p.intro{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+/*about*/
+.about-me{
+    background: rgb(255, 253, 227);
+    padding: 20px;
+    margin: 10px;
+}
+
+figure {
+    /*border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;*/
+    padding: 5px;
+    max-width: 300;
+    margin: auto;
+  }
+  
+  img.anne{
+    max-width: auto;
+    max-height: auto;
+    /*border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;*/
+    padding: 5px;
+    max-width: 300;
+    margin: auto;
+  }
+  
+  /*figcaption {
+    background-color: #4a4a4a;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }*/
+
+#about{
+    font-size: 16px;
+}
+
+/*Works*/
+.projects img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+
+}
+
+/*contact*/
+
+a{
+    text-decoration: none;
+}
+
+#contact-form{
+    text-align: center;
+    border-radius: 10%;
+    color:darkolivegreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url("https://t4.ftcdn.net/jpg/05/08/85/65/360_F_508856527_j47VSpWgbNbECuiOa9kSUllJBuZ2V1hF.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    padding:50px;
+    margin:10px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+.message{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#form-direction{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.form-element{
+    text-align: left;
+}
+
+.button{
+    border: none;
+    outline: none;
+    border-radius: 20%;
+    height: 80px;
+    width: 135px;
+    background-color: #F7CCCC;
+    color: #8785A2;
+    font-weight: bolder;
+    font-size: 17px;
+    text-align: center;
+}
+a button:hover{
+    color: var(--hovercolor);
+}
+.send-button{
+    border: none;
+    outline: none;
+    border-radius: 20%;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    color: #8785A2;
+    background-color: #F7CCCC;
+    border-radius: 20%;
+    height: 50px;
+    width: 100px;
+}
+.send-button:hover{
+    color: var(--hovercolor);
+}
+
+img.icon{
+    float:left;
+    width: 150px;
+    padding:20px;
+}
+
+div.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+  }
+
+button.caption{
+    background-color:rgb(234, 207, 247);
+    border:none;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px 20px 20px;
+}
+
+/*footer*/
+.footer{
+    background-color:rgb(98, 98, 108);
+    text-align: center;
+    padding: 40px;
+    opacity: 0.5;
+    height: 35px;
+    color:white;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
