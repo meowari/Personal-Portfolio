@@ -71,6 +71,13 @@ h1{
 p.intro{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    padding: 10px;
+}
+
+#contact-button{
+    display: flex;
+    justify-content: center;
+    /*change button color and font color*/
 }
 
 /*about*/
@@ -111,6 +118,20 @@ figure {
 #about{
     font-size: 16px;
 }
+
+#hobbies{
+    display:inline-block;
+    position: center;
+    list-style-type: none;
+    background-color: #FAC898;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 50%;
+    width: 20%;
+    text-align: center;
+    /*add media query for text to fit inside circles*/
+}
+
 
 /*Works*/
 .projects img{
@@ -166,7 +187,6 @@ label {
 .button{
     border: none;
     outline: none;
-    border-radius: 20%;
     height: 80px;
     width: 135px;
     background-color: #F7CCCC;
@@ -225,10 +245,8 @@ button.caption{
     text-align: center;
     padding: 40px;
     opacity: 0.5;
-    height: 35px;
+    height: auto;
     color:white;
-    position: fixed;
-    bottom: 0;
-    left:0;
+    margin-top: 20px;
     width: 100%;
 }
