@@ -244,29 +244,6 @@ label {
     font-size: 14px;
 }
 
-.icon{
-    display:inline-block;
-    width: 100px;
-    padding:20px;
-}
-
-div.buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
-  }
-
-button.caption{
-    background-color:rgb(234, 207, 247);
-    border:none;
-    border-radius: 30px;
-    font-size: 16px;
-    text-align:center;
-    text-decoration: none;
-    padding: 10px 20px 20px 20px;
-}
-
 /*footer*/
 .footer{
    /* background-color:rgb(98, 98, 108);*/
@@ -278,4 +255,14 @@ button.caption{
     height: auto;
     margin-top: 10px;
     width: 100%;
+}
+
+/*change opacity to be darker for icon or change icon image*/
+.icon{
+    width: 50px;
+    padding:10px;
+}
+
+.contact-buttons{
+    display:inline-block;
 }
