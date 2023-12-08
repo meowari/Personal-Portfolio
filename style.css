@@ -17,14 +17,13 @@ body{
 #navbar{
     background-color:#4f4f4f;
     position: sticky; 
-    top: 0;
-    left:0;
+    margin-top:0;
     border-bottom: 4px solid #fdb347;
 }
 
 nav ul{
     margin:0px;
-    padding:30px 60px;
+    padding:40px 60px;
     display: flex;
     align-items:center; 
     justify-content:space-between;
@@ -47,6 +46,7 @@ li a:hover{
 
 h2{
     text-align:center;
+    background-image: url("https://i.pinimg.com/originals/85/27/3e/85273e96ca8322d03208079ae53be80b.jpg");
     color:#da73b6;
     font-size:30px;
     border:dotted;
@@ -68,6 +68,11 @@ h1{
     width: 100%;
 }
 
+.intro-one{
+    font-size: 20px;
+    text-align: center;
+}
+
 p.intro{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -77,12 +82,25 @@ p.intro{
 #contact-button{
     display: flex;
     justify-content: center;
-    /*change button color and font color*/
+}
+
+.contact-button{
+    background-color:#FFCDD2 ;
+    padding: 20px;
+    border: none;
+    color: gray;
+    font-size: 20px;
+    box-shadow: 2px 2px 1px gray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact-button:hover{
+    background-color: #b19cd9 ;
+    color:white;
 }
 
 /*about*/
 .about-me{
-    background: rgb(255, 253, 227);
     padding: 20px;
     margin: 10px;
 }
@@ -123,17 +141,23 @@ figure {
     display:inline-block;
     position: center;
     list-style-type: none;
-    background-color: #FAC898;
+    background-color: #FFD580;
     margin: 10px;
     padding: 30px;
     border-radius: 50%;
     width: 20%;
     text-align: center;
+    color: #1A5276;
     /*add media query for text to fit inside circles*/
 }
 
 
 /*Works*/
+.project-descrip{
+    text-align: center;
+    font-size: 20px;
+}
+
 .projects img{
     display: flex;
     flex-direction: row;
@@ -141,37 +165,48 @@ figure {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px 10px;
 
+}
+
+.works-button{
+    background-color: #A9CCE3 ;
+    color:gray;
+    border: none;
+    padding: 20px;
+    box-shadow: 2px 2px 1px gray;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /*contact*/
 
 a{
     text-decoration: none;
+    color: #566573F0;
 }
 
 #contact-form{
     text-align: center;
-    border-radius: 10%;
     color:darkolivegreen;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/52292719e4b0e666272a9b40/1647187640839-3Q07SM5ZN0MKIUSRYGNI/canvas_rectangle5_7_72_0_2880_4032_0_false_ffffff_0_0.png");
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url("https://t4.ftcdn.net/jpg/05/08/85/65/360_F_508856527_j47VSpWgbNbECuiOa9kSUllJBuZ2V1hF.jpg");
     background-repeat: no-repeat;
-    background-size: 200%;
-    padding:50px;
-    margin:10px;
+    background-size: 80%;
+    background-position: center;
+    padding:40px;
+    width: 100%;
 }
 
 label {
     display: block;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
   }
 
 .message{
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -181,43 +216,25 @@ label {
 }
 
 .form-element{
-    text-align: left;
+    text-align: center;
+    padding: 10px;
 }
 
-.button{
-    border: none;
-    outline: none;
-    height: 80px;
-    width: 135px;
-    background-color: #F7CCCC;
-    color: #8785A2;
-    font-weight: bolder;
-    font-size: 17px;
+#send-button{
+    background-color:#FDEBD0 ;
+    padding: 20px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkolivegreen;
     text-align: center;
-}
-a button:hover{
-    color: var(--hovercolor);
-}
-.send-button{
     border: none;
-    outline: none;
-    border-radius: 20%;
     font-weight: bolder;
-    font-size: 15px;
-    text-align: center;
-    color: #8785A2;
-    background-color: #F7CCCC;
-    border-radius: 20%;
-    height: 50px;
+    box-shadow: 2px 2px 1px gray;
+    font-size: 14px;
+}
+
+.icon{
+    display:inline-block;
     width: 100px;
-}
-.send-button:hover{
-    color: var(--hovercolor);
-}
-
-img.icon{
-    float:left;
-    width: 150px;
     padding:20px;
 }
 
@@ -231,7 +248,7 @@ div.buttons{
 button.caption{
     background-color:rgb(234, 207, 247);
     border:none;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 16px;
     text-align:center;
     text-decoration: none;
@@ -241,12 +258,13 @@ button.caption{
 
 /*footer*/
 .footer{
-    background-color:rgb(98, 98, 108);
+   /* background-color:rgb(98, 98, 108);*/
+    background-image: url("https://static.vecteezy.com/system/resources/previews/033/220/357/non_2x/transparent-ocean-wave-copy-space-isolated-blue-teal-turquoise-cartoon-wave-for-pool-party-or-beach-travel-perfect-for-web-banners-backdrops-and-backgrounds-generative-ai-png.png");
+    background-size: 100%;
     text-align: center;
     padding: 40px;
     opacity: 0.5;
     height: auto;
-    color:white;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
 }
