@@ -16,6 +16,7 @@ body{
 
 #navbar{
     background-color:#4f4f4f;
+    /*something is overriding this sticky so figure it out*/
     position: sticky; 
     margin-top:0;
     border-bottom: 4px solid #fdb347;
@@ -46,12 +47,13 @@ li a:hover{
 
 h2{
     text-align:center;
-    background-image: url("https://i.pinimg.com/originals/85/27/3e/85273e96ca8322d03208079ae53be80b.jpg");
+    background-image: url("https://i.pngimg.me/thumb/f/720/4587612157247488.jpg");
+    background-size: 100%;
     color:#da73b6;
     font-size:30px;
     border:dotted;
-    padding:10px;
-    border-radius: 40px;
+    padding:20px;
+    border-radius: 25px;
 }
 
 /*home*/
@@ -102,8 +104,8 @@ p.intro{
 /*about*/
 .about-me{
     padding: 20px;
-    margin: 10px;
 }
+
 
 figure {
     /*border: thin #c0c0c0 solid;
@@ -181,6 +183,16 @@ figure {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#github-button{
+    display: flex;
+    justify-content: center;
+}
+
+.works-button:hover{
+    background-color:#b19cd9;
+    color:#FFCDD2;
+}
+
 /*contact*/
 
 a{
@@ -190,8 +202,8 @@ a{
 
 #contact-form{
     text-align: center;
-    color:darkolivegreen;
-    background-image: url("https://images.squarespace-cdn.com/content/v1/52292719e4b0e666272a9b40/1647187640839-3Q07SM5ZN0MKIUSRYGNI/canvas_rectangle5_7_72_0_2880_4032_0_false_ffffff_0_0.png");
+    color:#4f4f4f;
+    background-image: url("https://images.pexels.com/photos/1172840/pexels-photo-1172840.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-repeat: no-repeat;
     background-size: 80%;
@@ -252,7 +264,6 @@ button.caption{
     font-size: 16px;
     text-align:center;
     text-decoration: none;
-    display: inline-block;
     padding: 10px 20px 20px 20px;
 }
 
